@@ -1,0 +1,167 @@
+
+
+.App-header {
+  text-align: center;
+  min-height: 25vh;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background: #D46060;
+}
+
+.subLinks {
+  margin-top: 1em;
+  font-size: calc(5px + 2vmin);
+}
+
+footer {
+  min-height: 15vh;
+  padding-top: 1em;
+  margin-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  background: #D46060;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerDisplay {
+  width: 90%;
+  margin-left: 1em;
+  margin-right: 1em;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.App-header h1 img {
+  height: 2em;
+}
+
+.App-header h1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0em;
+}
+
+.spreadsheetLink {
+  color: #60D4D4;
+}
+
+.eventList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventListDisplay, .filters {
+  max-width: 70em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.filters {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+}
+
+.eventDisplay {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px #396080 solid;
+}
+
+.eventDisplay:first-child {
+  padding-top: 0;
+}
+
+.eventDisplay:last-child {
+  border-bottom: none;
+}
+
+.dateEventList {
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+  border-left: 1px #396080 solid;
+}
+
+.eventDisplay ul, .eventDisplay p {
+  margin-left: 1em;
+}
+
+ul.eventInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+ul.eventInfo li {
+  display: flex;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-right: 1px #396080 solid;
+}
+
+ul.eventInfo li:first-child {
+  padding-left: 0;
+}
+
+ul.eventInfo li:last-child {
+  border-right: none;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 0.3em;
+}
+
+.filters label {
+  margin-right: 1em;
+}
+
+.eventLink {
+  color: #16BB71;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+a.social {
+  border: none;
+  font-style: none;
+  text-decoration: none;
+}
+
+a.social svg {
+  width: 1em;
+  height: 1em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
